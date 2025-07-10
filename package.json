@@ -1,0 +1,29 @@
+{
+  "name": "sheetstash",
+  "version": "1.0.0",
+  "description": "Lightweight JS SDK for syncing JSON data with Google Sheets as a backend.",
+  "repository": "https://github.com/DinoscapeProgramming/SheetStash",
+  "homepage": "https://github.com/DinoscapeProgramming/SheetStash",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "google-sheets",
+    "sheet-sync",
+    "cloud-storage",
+    "json-storage",
+    "sync",
+    "spreadsheet-api",
+    "google-api",
+    "serverless-storage",
+    "javascript-sdk",
+    "data-sync"
+  ],
+  "author": "DinoscapeProgramming",
+  "license": "Apache-2.0",
+  "type": "commonjs",
+  "dependencies": {
+    "googleapis": "^152.0.0"
+  }
+}

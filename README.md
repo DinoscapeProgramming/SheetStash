@@ -41,6 +41,14 @@ async function useBasket() {
 useBasket().catch(console.error);
 ```
 
+### Disable Caching 🫸
+
+```js
+process.env.SHEETSTASH_CHACHING = "0";
+```
+
+Disables in-memory caching so every basket fetch hits the backing Google Sheet. Useful for development or when real-time accuracy is more important than speed.
+
 ## Features ✨
 
 * **Auto-sync** 🔄: When you modify basket data, it automatically syncs with your Google Sheet.

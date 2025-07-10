@@ -42,7 +42,7 @@ class PantryGoogleSheets {
       }
     });
 
-    this.cache[basketName] = proxy;
+    if (process.env.SHEETSTASH_CACHING !== "0") this.cache[basketName] = proxy;
     return proxy;
   };
 

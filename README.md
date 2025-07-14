@@ -1,24 +1,24 @@
-# SheetSync 🗂️✨
+# SheetStash 🗂️✨
 
-**SheetSync** is a simple and powerful SDK for managing and syncing baskets of JSON data using Google Sheets as a backend. It provides easy access to baskets, automatic synchronization with your Google Sheet, and allows developers to manage data in a clean and intuitive way - all without any server costs. 🚀
+**SheetStash** is a simple and powerful SDK for managing and syncing baskets of JSON data using Google Sheets as a backend. It provides easy access to baskets, automatic synchronization with your Google Sheet, and allows developers to manage data in a clean and intuitive way - all without any server costs. 🚀
 
 ## Installation 📦
 
-To install **SheetSync**, use npm:
+To install **SheetStash**, use npm:
 
 ```bash
-npm install sheetsync
+npm install sheetstash
 ```
 
 ## Usage 🛠️
 
-### Initialize SheetSync SDK ⚙️
+### Initialize SheetStash SDK ⚙️
 
 ```javascript
-const SheetSync = require("sheetsync");
+const SheetStash = require("sheetstash");
 const auth = require("./auth"); // Your Google API auth setup
 
-const pantry = new SheetSync("your-google-sheet-id", auth); // Initialize with Google Sheet ID
+const pantry = new SheetStash("your-google-sheet-id", auth); // Initialize with Google Sheet ID
 ```
 
 ### Access and Modify a Basket 🧺
